@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Serif:wght@100&display=swap');
+
+footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383833;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: right;
+}
+
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+
+.footer-title, .info{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+}
+
+.footer-title{
+    margin-top: 40px;
+    color: #fff;
+}
+
+.footer-socials-cont{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.soc:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-credit{
+    width: 100%;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}

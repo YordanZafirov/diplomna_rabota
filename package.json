@@ -1,0 +1,21 @@
+{
+  "name": "dr1.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecomwebsite",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1122.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express.js": "^1.0.0",
+    "firebase-admin": "^10.0.2",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "stripe": "^9.9.0"
+  }
+}
