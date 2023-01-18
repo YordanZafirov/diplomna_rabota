@@ -395,8 +395,8 @@ app.post('/order', async (req, res) => {
                     quantity: element.item
                 }
             }),
-            success_url: `http://localhost:3000/success.html`,
-            cancel_url: `http://localhost:3000/cancel.html`
+            success_url: `https://warriorstyle-all.onrender.com/success.html`,
+            cancel_url: `https://warriorstyle-all.onrender.com/cancel.html`
         })
         
         res.status(303).json({url: session.url})
