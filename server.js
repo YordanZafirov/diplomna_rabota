@@ -3,6 +3,7 @@ const admin = require('firebase-admin');
 const bcrypt = require('bcrypt');
 const path = require('path');
 const nodemailer = require('nodemailer');
+const PORT = process.env.PORT || 3000
 
 
 // firebase admin setup
@@ -497,4 +498,6 @@ app.use((req, res) => {
     res.redirect('/404');
 });
 
-app.listen(3000);
+app.listen(PORT, ()=>{
+    console.log(`Connected to ${PORT}`);
+});
